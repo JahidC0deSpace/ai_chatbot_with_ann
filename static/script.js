@@ -103,33 +103,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-
-
-
-
-
-
-
-
-
-// function sendMessage() {
-//     const inputField = document.getElementById("user-input");
-//     const message = inputField.value;
-//     if (!message.trim()) return;
-  
-//     const chatBox = document.getElementById("chat-box");
-//     chatBox.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
-  
-//     fetch("/chat", {
-//       method: "POST",
-//       body: JSON.stringify({ message }),
-//       headers: { "Content-Type": "application/json" }
-//     })
-//     .then(res => res.json())
-//     .then(data => {
-//       chatBox.innerHTML += `<p><strong>GuBot:</strong> ${data.reply}</p>`;
-//       inputField.value = "";
-//       chatBox.scrollTop = chatBox.scrollHeight;
-//     });
-//   }
   
